@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            font-family: Arial, Helvetica, sans-serif;
+            border: 2px solid;
+            border-radius: 8px;
+            width: 200px;
+            text-align: center;
+            padding: 15px;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        .container h1 {
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .container .price {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .container p {
+            font-size: 14px;
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-transform: uppercase;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .blue-card {
+            border-color: rgb(8, 136, 158);
+        }
+        .blue-card h1 {
+            color: rgb(64, 54, 209);
+        }
+        .blue-card .price {
+            color: darkred;
+        }
+        .blue-btn {
+            background-color: rgb(44, 145, 192);
+            border: 2px dotted white;
+        }
+        .blue-btn:hover {
+            background-color: rgb(8, 136, 158);
+        }
+        .green-card {
+            border-color: darkgreen;
+        }
+        .green-card h1 {
+            color: darkgreen;
+        }
+        .green-card .price {
+            color: rgb(156, 36, 76);
+        }
+        .green-btn {
+            background-color: green;
+            border: 2px solid darkgreen;
+        }
+        .green-btn:hover {
+            background-color: darkgreen;
+        }
+        .purple-card {
+            border-color: purple;
+        }
+        .purple-card h1 {
+            color: purple;
+        }
+        .purple-card .price {
+            color: darkred;
+        }
+        .purple-btn {
+            background-color: rgb(156, 36, 76);
+            border: 2px dashed white;
+        }
+        .purple-btn:hover {
+            background-color: rgb(77, 17, 37);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container blue-card">
+        <h1>PRODUCT NAME</h1>
+        <div class="price">$99.99</div>
+        <p>This is a brief description of the product and its features. It looks great!</p>
+        <span class="button blue-btn">BUY NOW</span>
+    </div>
+
+    <div class="container green-card">
+        <h1>PRODUCT NAME</h1>
+        <div class="price">$99.99</div>
+        <p>This is a brief description of the product and its features. It looks great</p>
+        <span class="button green-btn">BUY NOW</span>
+    </div>
+
+    <div class="container purple-card">
+        <h1>PRODUCT NAME</h1>
+        <div class="price">$99.99</div>
+        <p>This is a brief description of the product and its features. It looks great!</p>
+        <span class="button purple-btn">BUY NOW</span>
+    </div>
+
+</body>
+</html>
